@@ -73,9 +73,9 @@ def process_video(video_path, line_position=0.5):
     # Retornar os resultados da contagem
     return people_count, car_count
 
-# Testando a função com um vídeo de exemplo
+# Testando a função com um vídeo 
 if __name__ == "__main__":
-    video_path = "seu_video.mp4"  # Substitua pelo caminho do vídeo que deseja usar
+    video_path = "video.mp4"  # Substitua pelo caminho do vídeo que deseja usar
     people_count, car_count = process_video(video_path)
 
     # Exibir o resultado final
